@@ -4,13 +4,18 @@
   "description": "TEST TASK FOR OLEUS",
   "main": "index.js",
   "dependencies": {
+    "fullpage.js": "^4.0.19",
     "gh-pages": "^5.0.0",
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "sass": "^1.62.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "posthtml-include": "^1.7.4"
+  },
   "scripts": {
-    "dev": "parcel *.html --open --port 3000",
-    "build": "parcel build *.html --public-url /test-OLEUS/",
+    "dev": "parcel src/*.html --open --port 3000",
+    "build": "parcel build src/*.html --public-url /test-OLEUS/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },

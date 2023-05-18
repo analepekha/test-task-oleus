@@ -1,0 +1,24 @@
+
+.about-subtitle{
+    padding-bottom: 76px;
+}
+
+.about__wrapper{
+    display: flex;
+    padding-left: 61px;
+        padding-right: 187px;
+}
+
+.about__txt{
+    font-weight: 300;
+        font-size: 28px;
+        line-height: 1.21;  
+        
+        &:not(:last-child){
+            margin-right: 29px;
+        }
+}
+
+.about__txt-span{
+    color: $accent-color;
+}

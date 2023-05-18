@@ -1,0 +1,36 @@
+body {
+    font-family: $text-font;
+    color: $primary-txt;
+    background-color: $background-main;
+    margin: 0;
+}
+
+// .section {
+//     padding-top: 42px;
+//     padding-bottom: 42px;
+
+//     // @include mq(desktop) {
+//     //     padding-top: 90px;
+//     //     padding-bottom: 90px;
+//     // }
+// }
+
+.title {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 1.21;
+
+    // @include mq(desktop) {
+    //     font-size: 48px;
+    //     line-height: 1.04;
+
+    //     margin-bottom: 50px;
+    // }
+}
+
+.subtitle{
+    font-weight: 400;
+        font-size: 55px;
+        line-height: 1.21;
+        color: $primary-txt;
+}
