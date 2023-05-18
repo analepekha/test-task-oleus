@@ -1,0 +1,27 @@
+{
+  "name": "test-oleus",
+  "version": "1.0.0",
+  "description": "TEST TASK FOR OLEUS",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel *.html --open --port 3000",
+    "build": "parcel build *.html --public-url /test-OLEUS/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/analepekha/test-OLEUS.git"
+  },
+  "author": "Anastasiia Lepekha <anastasiia.lepekha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/analepekha/test-OLEUS/issues"
+  },
+  "homepage": "https://analepekha.github.io/test-OLEUS"
+}
