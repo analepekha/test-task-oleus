@@ -1,0 +1,2 @@
+const swiper=new Swiper(".swiper",{direction:"horizontal",loop:!0,rewind:!0,speed:1e3,freeMode:!0,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},breakpoints:{420:{slidesPerView:1.3,spaceBetween:50},768:{slidesPerView:3,spaceBetween:30},1064:{slidesPerView:3.2,spaceBetween:28}},keyboard:{enable:!0,onlyInViewport:!0,pageUpDown:!0}});
+//# sourceMappingURL=index.829e5142.js.map
