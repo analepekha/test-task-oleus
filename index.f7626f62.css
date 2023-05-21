@@ -36,15 +36,8 @@ body {
 .section {
   justify-content: center;
   align-items: center;
-  padding-top: 90px;
+  padding-top: 100px;
   padding-bottom: 90px;
-}
-
-@media screen and (width >= 1440px) {
-  .section {
-    padding-top: 90px;
-    padding-bottom: 90px;
-  }
 }
 
 .title {
@@ -500,10 +493,6 @@ body.noscroll {
   color: #d3f332;
 }
 
-.services__section {
-  padding-top: 60px;
-}
-
 .services__subtitle {
   margin-bottom: 76px;
 }
@@ -627,10 +616,6 @@ body.noscroll {
 .swiper-slide:hover {
   cursor: pointer;
   transform: scale(.9);
-}
-
-.myslide .swiper-slide {
-  width: 250px;
 }
 
 .swiper-slide.swiper-slide-next {
