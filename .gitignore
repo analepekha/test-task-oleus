@@ -3,6 +3,7 @@
 .vscode/
 .idea/
 .env
+.parcel-cache
 
 # Logs
 logs

@@ -14,19 +14,19 @@
     "posthtml-include": "^1.7.4"
   },
   "scripts": {
-    "dev": "parcel src/*.html --open --port 3000",
+    "dev": "parcel src/*.html --open",
     "build": "parcel build src/*.html",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/analepekha/test-OLEUS.git"
+    "url": "git+https://github.com/analepekha/test-task-oleus.git"
   },
   "author": "Anastasiia Lepekha <anastasiia.lepekha@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/analepekha/test-OLEUS/issues"
+    "url": "https://github.com/analepekha/test-task-oleus/issues"
   },
-  "homepage": "https://github.com/analepekha/test-OLEUS"
+  "homepage": "https://analepekha.github.io/test-task-oleus/"
 }
