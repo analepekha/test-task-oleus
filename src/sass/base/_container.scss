@@ -1,13 +1,9 @@
 .container {
-    max-width: 360px;
-    margin: 0 auto;
-    padding: 0 46px;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 46px;
 
-    @include mq(tablet) {
-        max-width: 768px;
-    }
-
-    @include mq(desktop) {
-        max-width: 1440px;
-    }
+  @include mq(desktop) {
+    max-width: 1440px;
+  }
 }
