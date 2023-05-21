@@ -2,9 +2,7 @@
   "name": "test-oleus",
   "version": "1.0.0",
   "description": "TEST TASK FOR OLEUS",
-  "main": "index.js",
   "dependencies": {
-    "fullpage.js": "^4.0.19",
     "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "sass": "^1.62.1"
@@ -15,7 +13,7 @@
   },
   "scripts": {
     "dev": "parcel src/*.html --open",
-    "build": "parcel build src/*.html",
+    "build": "parcel build src/*.html --public-url /test-task-oleus/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
